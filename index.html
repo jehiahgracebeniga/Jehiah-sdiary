@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jehiah's Diary</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-pink: #ffe4e8;
+      --card-bg: #ffffff;
+      --accent-pink: #ff758f;
+      --text-dark: #5c3d46;
+      --text-muted: #8c6874;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg-pink);
+      background-image: radial-gradient(#ffb3c1 1px, transparent 1px);
+      background-size: 20px 20px;
+      color: var(--text-dark);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .diary-card {
+      background-color: var(--card-bg);
+      border-radius: 24px;
+      padding: 45px 35px;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 12px 30px rgba(255, 117, 143, 0.25);
+      border: 2px solid #ffccd5;
+    }
+
+    .icon-sparkle {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+
+    .diary-title {
+      font-family: 'Sacramento', cursive;
+      font-size: 3.2rem;
+      color: var(--accent-pink);
+      margin-bottom: 6px;
+    }
+
+    .diary-subtitle {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-dark);
+      margin-bottom: 16px;
+    }
+
+    .pink-line {
+      width: 60px;
+      height: 3px;
+      background-color: var(--accent-pink);
+      margin: 0 auto 20px auto;
+      border-radius: 4px;
+    }
+
+    .diary-message {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+      font-weight: 300;
+      margin-bottom: 28px;
+    }
+
+    .video-button {
+      display: inline-block;
+      background-color: #ff5c8a;
+      color: #ffffff;
+      padding: 14px 32px;
+      border-radius: 50px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(255, 92, 138, 0.35);
+      transition: all 0.3s ease;
+    }
+
+    .video-button:hover {
+      background-color: #ff3366;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(255, 92, 138, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <main class="diary-card">
+    <div class="icon-sparkle">✨</div>
+    <h1 class="diary-title">Jehiah's Diary</h1>
+    <p class="diary-subtitle">Welcome to Jehiah's Diary!</p>
+    <div class="pink-line"></div>
+    <p class="diary-message">
+      A little space where I share my life, memories, dreams, and the person I am becoming.
+    </p>
+
+    <a href="https://drive.google.com/drive/folders/1kT3v23jRHk_ep4KEhsxQch6DV877BPLn" target="_blank" class="video-button">
+      WATCH THE VIDEO 🎀 ▶
+    </a>
+  </main>
+
+</body>
+</html>
